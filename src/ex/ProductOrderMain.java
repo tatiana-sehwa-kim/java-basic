@@ -20,6 +20,7 @@ public class ProductOrderMain {
         coke.quantity = 2;
 
         ProductOrder[] orders = {tofu, kimchi, coke};
+
         for (ProductOrder o : orders) {
             System.out.println("상품명: " + o.productName + ", 가격: " + o.price + ", 수량: " + o.quantity);
         }

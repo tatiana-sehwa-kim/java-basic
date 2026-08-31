@@ -1,7 +1,9 @@
 package class1;
 
 public class ClassStart3 {
+
     public static void main(String[] args) {
+
         Student student1; //변수 선언. stdent 타입 객체를 받을 Student를 선언한것
         student1 = new Student(); //이러면 학생을 실제 메모리에 만들어요.
         student1.name = "학생1"; //. 점을 통해서 접근할수있다.

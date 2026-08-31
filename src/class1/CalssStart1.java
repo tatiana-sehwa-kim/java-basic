@@ -1,6 +1,7 @@
 package class1;
 
 public class CalssStart1 {
+
     public static void main(String[] args) {
 
         // 변수 사용해서 풀어보기 ( 배열을 이미 사용해서풀었음 )

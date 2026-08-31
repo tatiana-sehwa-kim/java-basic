@@ -28,6 +28,7 @@ public class ProductOrderMain_Answer {
             System.out.println("상품명: " + order.productName + ", 가격: " + order.price + ", 수량: " + order.quantity);
             totalAmount += order.price *order.quantity;
         }
+
         System.out.println("총 결제금액: " + totalAmount);
     }
 }

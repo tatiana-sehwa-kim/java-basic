@@ -1,7 +1,9 @@
 package class1;
 
 public class CalssStart2 {
+
     public static void main(String[] args) {
+
 
         // 배열을 써서 편해지긴 했는데, 만약 학생 2의 이름, 나이 점수를 지운다면 꼬일수가 있다.
         // → 클래스를 쓰는 이유

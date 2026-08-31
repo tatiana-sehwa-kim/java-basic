@@ -20,7 +20,6 @@ public class MovieReviewMain2 {
         for (MovieReview m : reviews) {
             System.out.println("영화 제목: " + m.title + ", 리뷰: " + m.review);
         }
-
         System.out.println("영화 제목: " + inception.title + ", 리뷰: " + inception.review);
         System.out.println("영화 제목: " + aboutTime.title + ", 리뷰: " + aboutTime.review);
     }
