@@ -1,4 +1,4 @@
-package ex;
+package ref.ex;
 
 public class MovieReviewMain3_forfor {
     public static void main(String[] args) {
