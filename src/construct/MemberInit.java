@@ -5,6 +5,9 @@ public class MemberInit {
     int age;
     int grade;
 
+    //생성자가없음. 그래서 메인클래스에서 ();라고 하면 기본생성자로 만들어준셈
+    // MemberInit(){
+    // } 을 자동으로 만들어 준거임.
 
     //추가. 2번에 맨마지막것이을 복붙했다. static 만 빼고
     void initMember(String name, int age, int grade) {
