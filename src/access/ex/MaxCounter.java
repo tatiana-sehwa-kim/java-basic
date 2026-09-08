@@ -15,7 +15,7 @@ public class MaxCounter {
             return;
         }
         // 실행 로직
-        count++
+        count++;
 
 //        if (count < max) {        내가푼부분. 이것도맞긴함
 //            count++;
