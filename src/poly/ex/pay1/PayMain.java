@@ -20,5 +20,10 @@ public class PayMain {
         int amount3 = 15000;
         payService.processPay(payOption3, amount3);
 
+        //잘못된 결제 수단 선택
+        String payOption4 = "new";
+        int amount4 = 10000;
+        payService.processPay(payOption4, amount4);
+
     }
 }

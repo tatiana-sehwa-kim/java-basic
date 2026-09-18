@@ -7,17 +7,18 @@ public class SetPay {
         boolean result;
         if (option.equals("kakao")) {
             KakaoPay kakaoPay = new KakaoPay();
-            kakaoPay.pay(amount);
             return result = kakaoPay.pay(amount);
 
         } else if (option.equals("naver")) {
             NaverPay naverPay = new NaverPay();
-            naverPay.pay(amount);
             return result = naverPay.pay(amount);
+
+        } else if (option.equals("new")) {
+            NewPay newPay = new NewPay();
+            return result = newPay.pay(amount);
 
         } else {
             DefaultPay defaultPay = new DefaultPay();
-            defaultPay.pay(amount);
             return result = defaultPay.pay(amount);
         }
     }

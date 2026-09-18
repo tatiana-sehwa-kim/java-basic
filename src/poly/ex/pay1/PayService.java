@@ -8,7 +8,6 @@ public class PayService {
         System.out.println("결제를 시작합니다: option=" + option + ", amount=" + amount);
 
         SetPay setPay = new SetPay();
-        setPay.setPay(option, amount);
         result = setPay.setPay(option, amount);
 
         if (result) {
